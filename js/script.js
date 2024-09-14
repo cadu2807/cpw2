@@ -40,9 +40,9 @@ function displayResults(data) {
         // Atualize a URL do áudio
         if (entry.phonetics && entry.phonetics[0] && entry.phonetics[0].audio) {
             audioSource.src = entry.phonetics[0].audio;
-            audioContainer.style.display = 'block'; // Mostra o player de áudio
+            audioContainer.style.display = 'block'; 
         } else {
-            audioContainer.style.display = 'none'; // Oculta o player se não houver URL de áudio
+            audioContainer.style.display = 'none'; 
         }
     });
 }
