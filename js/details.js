@@ -38,9 +38,9 @@ function displayDetails(data) {
         // Atualize a URL do áudio
         if (entry.phonetics && entry.phonetics[0] && entry.phonetics[0].audio) {
             audioSource.src = entry.phonetics[0].audio;
-            audioPlayer.style.display = 'block'; // Garanta que o player é exibido
+            audioPlayer.style.display = 'block'; 
         } else {
-            audioPlayer.style.display = 'none'; // Oculta o player se não houver URL de áudio
+            audioPlayer.style.display = 'none'; 
         }
     });
 }
