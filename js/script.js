@@ -35,7 +35,6 @@ function displayResults(data) {
             </div>
         `;
 
-        // Atualize a URL do áudio
         if (entry.phonetics && entry.phonetics[0] && entry.phonetics[0].audio) {
             audioSource.src = entry.phonetics[0].audio;
             audioContainer.style.display = 'block'; 
