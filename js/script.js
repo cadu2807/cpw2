@@ -1,5 +1,3 @@
-// script.js
-
 document.getElementById('search-button').addEventListener('click', async () => {
     const query = document.getElementById('search-input').value;
     if (query) {
