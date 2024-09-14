@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicativo de Dicionário</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dicionário de Inglês</h1>
+        <input type="text" id="search-input" placeholder="Digite uma palavra">
+        <button id="search-button">Pesquisar</button>
+        <div id="results"></div>
+        <div id="audio-container" style="display: none;">
+            <div class="audio-controls">
+                <span class="audio-icon">&#128266;</span> <!-- Ícone de fone -->
+                <audio id="audio-player" controls>
+                    <source id="audio-source" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

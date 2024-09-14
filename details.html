@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes da Palavra</title>
+    <link rel="stylesheet" href="css/styles2.css">
+    <link rel="stylesheet" href="css/responsive2.css">
+</head>
+<body>
+    <div class="container">
+        <button onclick="goBack()">Voltar</button>
+        <div id="details"></div>
+        <div id="audio-container">
+            <div class="audio-controls">
+                <span class="audio-icon">&#128266;</span> <!-- Ícone de fone -->
+                <audio id="audio-player" controls>
+                    <source id="audio-source" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+            </div>
+        </div>
+    </div>
+    <script src="js/details.js"></script>
+</body>
+</html>

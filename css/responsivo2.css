@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    #search-input {
+        width: calc(100% - 24px);
+        margin-right: 0;
+    }
+    
+    #search-button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .audio-bar {
+        width: 100%;
+        flex-direction: row;
+        padding: 10px 5px;
+    }
+
+    .audio-play-button {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
