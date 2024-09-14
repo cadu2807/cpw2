@@ -1,5 +1,3 @@
-// details.js
-
 window.onload = async () => {
     const urlParams = new URLSearchParams(window.location.search);
     const word = urlParams.get('word');
